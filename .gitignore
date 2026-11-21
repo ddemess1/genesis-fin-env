@@ -6,3 +6,4 @@ episodes/_audit/
 reports/audit.inject-*
 .tmp-*
 episodes/demo/
+%SystemDrive%/
