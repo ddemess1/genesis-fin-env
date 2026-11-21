@@ -1,0 +1,75 @@
+flowchart LR
+    classDef clean stroke:#999999
+    classDef mut fill:#FCEBC8,stroke:#E69F00
+    classDef err fill:#FBE3D6,stroke:#D55E00,stroke-width:2px
+    classDef ev fill:#E0F2EC,stroke:#009E73
+    classDef truth fill:#F5E3EE,stroke:#CC79A7
+    classDef twin stroke:#0072B2,stroke-dasharray:4 3
+
+    subgraph iss_01["iss_01 · payment_allocation"]
+        iss_01_source_0["PAY-YKSFW6<br/>2 208 113.85 KZT · 10-27 15:39"]:::clean
+        iss_01_mutator_0{{"PARTIAL_ALLOCATION<br/>в 1200 ушло 32%"}}:::mut
+        iss_01_diff_0["~ ROW-JHBE2R · Cr 1200"]:::err
+        iss_01_diff_1["+ ROW-FJJGHE · Cr 2900"]:::err
+        iss_01_affected_0["affected<br/>INV-AFKD2S, PAY-YKSFW6"]:::err
+        iss_01_evidence_0[/"✓ DOC-AHITKT + ROW-FJJGHE + ROW-JHBE2R"/]:::ev
+        iss_01_truth_0(["iss_01 ▲ payment_allocation<br/>1 501 517.42 KZT"]):::truth
+        iss_01_source_0 --> iss_01_mutator_0
+        iss_01_mutator_0 --> iss_01_diff_0
+        iss_01_mutator_0 --> iss_01_diff_1
+        iss_01_diff_0 --> iss_01_affected_0
+        iss_01_diff_1 --> iss_01_affected_0
+        iss_01_affected_0 --> iss_01_evidence_0
+        iss_01_evidence_0 --> iss_01_truth_0
+    end
+
+    subgraph iss_02["iss_02 · payment_allocation"]
+        iss_02_source_0["PAY-EKPJYC<br/>2 376 925.29 KZT · 10-18 13:17"]:::clean
+        iss_02_mutator_0{{"PARTIAL_ALLOCATION<br/>в 1200 ушло 77%"}}:::mut
+        iss_02_diff_0["~ ROW-VAGYAZ · Cr 1200"]:::err
+        iss_02_diff_1["+ ROW-HNFOD2 · Cr 2900"]:::err
+        iss_02_affected_0["affected<br/>INV-B7APXJ, PAY-EKPJYC"]:::err
+        iss_02_evidence_0[/"✓ DOC-JYBBWS + ROW-HNFOD2 + ROW-VAGYAZ"/]:::ev
+        iss_02_truth_0(["iss_02 ▲ payment_allocation<br/>546 692.82 KZT"]):::truth
+        iss_02_source_0 --> iss_02_mutator_0
+        iss_02_mutator_0 --> iss_02_diff_0
+        iss_02_mutator_0 --> iss_02_diff_1
+        iss_02_diff_0 --> iss_02_affected_0
+        iss_02_diff_1 --> iss_02_affected_0
+        iss_02_affected_0 --> iss_02_evidence_0
+        iss_02_evidence_0 --> iss_02_truth_0
+    end
+
+    subgraph tw_01["tw_01 · законный двойник"]
+        tw_01_source_0["INV-XEBUTC<br/>563 449.48 KZT"]:::clean
+        tw_01_mutator_0{{"TWIN_SPLIT_PAYMENT<br/>"}}:::mut
+        tw_01_diff_0["+ PAY-DF2325"]:::twin
+        tw_01_diff_1["+ ROW-DZXII5 · Dr 1000"]:::twin
+        tw_01_diff_2["+ ROW-OQK6KH · Cr 1200"]:::twin
+        tw_01_diff_3["+ PAY-PAHZ4V"]:::twin
+        tw_01_diff_4["+ ROW-RE3BZD · Dr 1000"]:::twin
+        tw_01_diff_5["+ ROW-UL7HUI · Cr 1200"]:::twin
+        tw_01_truth_0(["○ не ошибка<br/>every ref fully posted to 1200, 2900 = 0 (two receipts on one invoice)"]):::twin
+        tw_01_source_0 -.-> tw_01_mutator_0
+        tw_01_mutator_0 -.-> tw_01_diff_0
+        tw_01_mutator_0 -.-> tw_01_diff_1
+        tw_01_mutator_0 -.-> tw_01_diff_2
+        tw_01_mutator_0 -.-> tw_01_diff_3
+        tw_01_mutator_0 -.-> tw_01_diff_4
+        tw_01_mutator_0 -.-> tw_01_diff_5
+        tw_01_diff_5 -.-> tw_01_truth_0
+    end
+
+    subgraph tw_02["tw_02 · законный двойник"]
+        tw_02_source_0["INV-JTARIW<br/>516 400.00 KZT"]:::clean
+        tw_02_mutator_0{{"TWIN_TRUE_PARTIAL<br/>"}}:::mut
+        tw_02_diff_0["+ PAY-DF463W"]:::twin
+        tw_02_diff_1["+ ROW-Y5TNYG · Dr 1000"]:::twin
+        tw_02_diff_2["+ ROW-KV4XOH · Cr 1200"]:::twin
+        tw_02_truth_0(["○ не ошибка<br/>ref.amount #lt; invoice total and 1200 = ref.amount (2900 = 0)"]):::twin
+        tw_02_source_0 -.-> tw_02_mutator_0
+        tw_02_mutator_0 -.-> tw_02_diff_0
+        tw_02_mutator_0 -.-> tw_02_diff_1
+        tw_02_mutator_0 -.-> tw_02_diff_2
+        tw_02_diff_2 -.-> tw_02_truth_0
+    end

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1471" height="754" viewBox="0 0 1471 754" font-family="DejaVu Sans Mono, Menlo, monospace" role="img">
+<title>эпизод ep_f14cc06d · 2 ошибок/групп · 2 двойников</title>
+<rect x="0" y="0" width="1471" height="754" fill="#FFFFFF"></rect>
+<text x="20" y="24" font-size="14" fill="#222222" font-weight="bold">эпизод ep_f14cc06d · 2 ошибок/групп · 2 двойников</text>
+<text x="20" y="56" font-size="11" fill="#999999" font-weight="bold">ЧИСТАЯ ЗАПИСЬ</text>
+<text x="282" y="56" font-size="11" fill="#999999" font-weight="bold">МУТАТОР</text>
+<text x="453" y="56" font-size="11" fill="#999999" font-weight="bold">DIFF</text>
+<text x="659" y="56" font-size="11" fill="#999999" font-weight="bold">AFFECTED_IDS</text>
+<text x="865" y="56" font-size="11" fill="#999999" font-weight="bold">ДОКАЗАТЕЛЬСТВА</text>
+<text x="1092" y="56" font-size="11" fill="#999999" font-weight="bold">TRUTH.JSON</text>
+<text x="20" y="76" font-size="12" fill="#222222" font-weight="bold">iss_01 · duplicate_invoice</text>
+<path d="M246 104 L264 104 L264 104 L282 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M276 100 L282 104 L276 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M417 104 L435 104 L435 97 L453 97" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M447 93 L453 97 L447 101" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M417 104 L435 104 L435 133 L453 133" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M447 129 L453 133 L447 137" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M417 104 L435 104 L435 169 L453 169" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M447 165 L453 169 L447 173" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M623 97 L641 97 L641 104 L659 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M653 100 L659 104 L653 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M623 133 L641 133 L641 104 L659 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M653 100 L659 104 L653 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M623 169 L641 169 L641 104 L659 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M653 100 L659 104 L653 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M829 104 L847 104 L847 97 L865 97" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M859 93 L865 97 L859 101" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1056 97 L1074 97 L1074 104 L1092 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1086 100 L1092 104 L1086 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<rect x="20" y="84" width="226" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>INV-5LNF4A</title></rect>
+<text x="28" y="102" font-size="12" fill="#222222">INV-5LNF4A</text>
+<text x="28" y="116" font-size="12" fill="#222222">2 453.46 USD</text>
+<rect x="282" y="84" width="135" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>DUPLICATE_INVOICE</title></rect>
+<text x="290" y="102" font-size="12" fill="#222222">DUPLICATE_INVOICE</text>
+<text x="290" y="116" font-size="12" fill="#222222">shift 0d 408m</text>
+<rect x="453" y="84" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-3SSV4W</title></rect>
+<text x="461" y="102" font-size="12" fill="#222222">+ INV-3SSV4W</text>
+<rect x="453" y="120" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-LF7EZ3</title></rect>
+<text x="461" y="138" font-size="12" fill="#222222">+ ROW-LF7EZ3 · Dr 1200</text>
+<rect x="453" y="156" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-6AMG6F</title></rect>
+<text x="461" y="174" font-size="12" fill="#222222">+ ROW-6AMG6F · Cr 4000</text>
+<rect x="659" y="84" width="170" height="40" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-3SSV4W, INV-5LNF4A</title></rect>
+<text x="667" y="102" font-size="12" fill="#222222">affected</text>
+<text x="667" y="116" font-size="12" fill="#222222">INV-3SSV4W, INV-5LNF4A</text>
+<rect x="865" y="84" width="191" height="26" fill="#E0F2EC" stroke="#009E73" stroke-width="1"><title>DOC-ADL3KV + DOC-HKJ7IB</title></rect>
+<text x="873" y="102" font-size="12" fill="#222222">✓ DOC-ADL3KV + DOC-HKJ7IB</text>
+<rect x="1092" y="84" width="359" height="40" rx="6" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"><title>iss_01 duplicate_invoice 245346 USD</title></rect>
+<text x="1100" y="102" font-size="12" fill="#222222">iss_01 ▲ duplicate_invoice</text>
+<text x="1100" y="116" font-size="12" fill="#222222">2 453.46 USD</text>
+<text x="20" y="226" font-size="12" fill="#222222" font-weight="bold">iss_02 · duplicate_invoice</text>
+<path d="M246 254 L264 254 L264 254 L282 254" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M276 250 L282 254 L276 258" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M417 254 L435 254 L435 247 L453 247" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M447 243 L453 247 L447 251" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M417 254 L435 254 L435 283 L453 283" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M447 279 L453 283 L447 287" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M417 254 L435 254 L435 319 L453 319" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M447 315 L453 319 L447 323" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M623 247 L641 247 L641 254 L659 254" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M653 250 L659 254 L653 258" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M623 283 L641 283 L641 254 L659 254" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M653 250 L659 254 L653 258" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M623 319 L641 319 L641 254 L659 254" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M653 250 L659 254 L653 258" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M829 254 L847 254 L847 247 L865 247" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M859 243 L865 247 L859 251" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1056 247 L1074 247 L1074 254 L1092 254" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1086 250 L1092 254 L1086 258" fill="none" stroke="#444444" stroke-width="2"></path>
+<rect x="20" y="234" width="226" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>INV-XRVQEU</title></rect>
+<text x="28" y="252" font-size="12" fill="#222222">INV-XRVQEU</text>
+<text x="28" y="266" font-size="12" fill="#222222">1 467 800.00 KZT</text>
+<rect x="282" y="234" width="135" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>DUPLICATE_INVOICE</title></rect>
+<text x="290" y="252" font-size="12" fill="#222222">DUPLICATE_INVOICE</text>
+<text x="290" y="266" font-size="12" fill="#222222">shift 2d 370m</text>
+<rect x="453" y="234" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-SBENPM</title></rect>
+<text x="461" y="252" font-size="12" fill="#222222">+ INV-SBENPM</text>
+<rect x="453" y="270" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-6VJKBB</title></rect>
+<text x="461" y="288" font-size="12" fill="#222222">+ ROW-6VJKBB · Dr 1200</text>
+<rect x="453" y="306" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-26LDQB</title></rect>
+<text x="461" y="324" font-size="12" fill="#222222">+ ROW-26LDQB · Cr 4000</text>
+<rect x="659" y="234" width="170" height="40" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-SBENPM, INV-XRVQEU</title></rect>
+<text x="667" y="252" font-size="12" fill="#222222">affected</text>
+<text x="667" y="266" font-size="12" fill="#222222">INV-SBENPM, INV-XRVQEU</text>
+<rect x="865" y="234" width="191" height="26" fill="#E0F2EC" stroke="#009E73" stroke-width="1"><title>DOC-OI57XV + DOC-VFEBVN</title></rect>
+<text x="873" y="252" font-size="12" fill="#222222">✓ DOC-OI57XV + DOC-VFEBVN</text>
+<rect x="1092" y="234" width="359" height="40" rx="6" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"><title>iss_02 duplicate_invoice 146780000 KZT</title></rect>
+<text x="1100" y="252" font-size="12" fill="#222222">iss_02 ▲ duplicate_invoice</text>
+<text x="1100" y="266" font-size="12" fill="#222222">1 467 800.00 KZT</text>
+<text x="20" y="376" font-size="12" fill="#222222" font-weight="bold">tw_01 · законный двойник</text>
+<path d="M246 404 L264 404 L264 404 L282 404" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M276 400 L282 404 L276 408" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M417 404 L435 404 L435 397 L453 397" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M447 393 L453 397 L447 401" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M417 404 L435 404 L435 433 L453 433" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M447 429 L453 433 L447 437" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M417 404 L435 404 L435 469 L453 469" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M447 465 L453 469 L447 473" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M623 469 L857 469 L857 404 L1092 404" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M1086 400 L1092 404 L1086 408" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<rect x="20" y="384" width="226" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>PAY-EXPGF2</title></rect>
+<text x="28" y="402" font-size="12" fill="#222222">PAY-EXPGF2</text>
+<text x="28" y="416" font-size="12" fill="#222222">2 350 775.82 KZT · 10-19 19:44</text>
+<rect x="282" y="384" width="135" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>TWIN_REFUND</title></rect>
+<text x="290" y="402" font-size="12" fill="#222222">TWIN_REFUND</text>
+<text x="290" y="416" font-size="12" fill="#222222"></text>
+<rect x="453" y="384" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>PAY-IME3OH</title></rect>
+<text x="461" y="402" font-size="12" fill="#222222">+ PAY-IME3OH</text>
+<rect x="453" y="420" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-CMOOYP</title></rect>
+<text x="461" y="438" font-size="12" fill="#222222">+ ROW-CMOOYP · Cr 1000</text>
+<rect x="453" y="456" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-BT2AE7</title></rect>
+<text x="461" y="474" font-size="12" fill="#222222">+ ROW-BT2AE7 · Dr 1200</text>
+<rect x="1092" y="384" width="359" height="40" rx="6" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>not an error: amount_minor &lt; 0 in the payment document (refund)</title></rect>
+<text x="1100" y="402" font-size="12" fill="#222222">○ не ошибка</text>
+<text x="1100" y="416" font-size="12" fill="#222222">amount_minor &lt; 0 in the payment document (refund)</text>
+<text x="20" y="526" font-size="12" fill="#222222" font-weight="bold">tw_02 · законный двойник</text>
+<path d="M246 554 L264 554 L264 554 L282 554" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M276 550 L282 554 L276 558" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M417 554 L435 554 L435 547 L453 547" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M447 543 L453 547 L447 551" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M417 554 L435 554 L435 583 L453 583" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M447 579 L453 583 L447 587" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M417 554 L435 554 L435 619 L453 619" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M447 615 L453 619 L447 623" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M623 619 L857 619 L857 554 L1092 554" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M1086 550 L1092 554 L1086 558" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<rect x="20" y="534" width="226" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>INV-M5PPU3</title></rect>
+<text x="28" y="552" font-size="12" fill="#222222">INV-M5PPU3</text>
+<text x="28" y="566" font-size="12" fill="#222222">6 400.00 EUR</text>
+<rect x="282" y="534" width="135" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>TWIN_SUBSCRIPTION</title></rect>
+<text x="290" y="552" font-size="12" fill="#222222">TWIN_SUBSCRIPTION</text>
+<text x="290" y="566" font-size="12" fill="#222222">+30d</text>
+<rect x="453" y="534" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>INV-TZRIPM</title></rect>
+<text x="461" y="552" font-size="12" fill="#222222">+ INV-TZRIPM</text>
+<rect x="453" y="570" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-ZENQQW</title></rect>
+<text x="461" y="588" font-size="12" fill="#222222">+ ROW-ZENQQW · Dr 1200</text>
+<rect x="453" y="606" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-IBECJZ</title></rect>
+<text x="461" y="624" font-size="12" fill="#222222">+ ROW-IBECJZ · Cr 4000</text>
+<rect x="1092" y="534" width="359" height="40" rx="6" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>not an error: service_period 2026-10 → 2026-11</title></rect>
+<text x="1100" y="552" font-size="12" fill="#222222">○ не ошибка</text>
+<text x="1100" y="566" font-size="12" fill="#222222">service_period 2026-10 → 2026-11</text>
+<rect x="20" y="704" width="26" height="16" fill="#FFFFFF" stroke="#999999" stroke-width="1"></rect>
+<text x="52" y="716" font-size="11" fill="#222222">чистая запись</text>
+<rect x="165" y="704" width="26" height="16" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"></rect>
+<text x="197" y="716" font-size="11" fill="#222222">мутатор</text>
+<rect x="268" y="704" width="26" height="16" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"></rect>
+<text x="300" y="716" font-size="11" fill="#222222">ошибка / diff</text>
+<rect x="413" y="704" width="26" height="16" fill="#E0F2EC" stroke="#009E73" stroke-width="1"></rect>
+<text x="445" y="716" font-size="11" fill="#222222">доказательства</text>
+<rect x="565" y="704" width="26" height="16" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"></rect>
+<text x="597" y="716" font-size="11" fill="#222222">строка truth</text>
+<rect x="703" y="704" width="26" height="16" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></rect>
+<text x="735" y="716" font-size="11" fill="#222222">○ двойник</text>
+</svg>

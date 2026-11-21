@@ -1,0 +1,55 @@
+flowchart LR
+    classDef clean stroke:#999999
+    classDef mut fill:#FCEBC8,stroke:#E69F00
+    classDef err fill:#FBE3D6,stroke:#D55E00,stroke-width:2px
+    classDef ev fill:#E0F2EC,stroke:#009E73
+    classDef truth fill:#F5E3EE,stroke:#CC79A7
+    classDef twin stroke:#0072B2,stroke-dasharray:4 3
+
+    subgraph tw_01["tw_01 · законный двойник"]
+        tw_01_source_0["INV-BQH4OP<br/>2 635.76 EUR"]:::clean
+        tw_01_mutator_0{{"TWIN_SPLIT_PAYMENT<br/>"}}:::mut
+        tw_01_diff_0["+ PAY-DMZCNG"]:::twin
+        tw_01_diff_1["+ ROW-5YBFOR · Dr 1000"]:::twin
+        tw_01_diff_2["+ ROW-XVGR32 · Cr 1200"]:::twin
+        tw_01_diff_3["+ PAY-BNSVU3"]:::twin
+        tw_01_diff_4["+ ROW-PW4DOG · Dr 1000"]:::twin
+        tw_01_diff_5["+ ROW-55VTXT · Cr 1200"]:::twin
+        tw_01_truth_0(["○ не ошибка<br/>every ref fully posted to 1200, 2900 = 0 (two receipts on one invoice)"]):::twin
+        tw_01_source_0 -.-> tw_01_mutator_0
+        tw_01_mutator_0 -.-> tw_01_diff_0
+        tw_01_mutator_0 -.-> tw_01_diff_1
+        tw_01_mutator_0 -.-> tw_01_diff_2
+        tw_01_mutator_0 -.-> tw_01_diff_3
+        tw_01_mutator_0 -.-> tw_01_diff_4
+        tw_01_mutator_0 -.-> tw_01_diff_5
+        tw_01_diff_5 -.-> tw_01_truth_0
+    end
+
+    subgraph tw_02["tw_02 · законный двойник"]
+        tw_02_source_0["INV-KNOHRD<br/>11 252.78 USD"]:::clean
+        tw_02_mutator_0{{"TWIN_TRUE_PARTIAL<br/>"}}:::mut
+        tw_02_diff_0["+ PAY-OCWMIF"]:::twin
+        tw_02_diff_1["+ ROW-AGDSDY · Dr 1000"]:::twin
+        tw_02_diff_2["+ ROW-26EN5I · Cr 1200"]:::twin
+        tw_02_truth_0(["○ не ошибка<br/>ref.amount #lt; invoice total and 1200 = ref.amount (2900 = 0)"]):::twin
+        tw_02_source_0 -.-> tw_02_mutator_0
+        tw_02_mutator_0 -.-> tw_02_diff_0
+        tw_02_mutator_0 -.-> tw_02_diff_1
+        tw_02_mutator_0 -.-> tw_02_diff_2
+        tw_02_diff_2 -.-> tw_02_truth_0
+    end
+
+    subgraph tw_03["tw_03 · законный двойник"]
+        tw_03_source_0["INV-4KRGK5<br/>5 156.48 EUR"]:::clean
+        tw_03_mutator_0{{"TWIN_WEEKEND_FX<br/>"}}:::mut
+        tw_03_diff_0["+ PAY-FTF3YA"]:::twin
+        tw_03_diff_1["+ ROW-7XAQFK · Dr 1000"]:::twin
+        tw_03_diff_2["+ ROW-UFDAHT · Cr 1200"]:::twin
+        tw_03_truth_0(["○ не ошибка<br/>no fx row for the weekend date; policy uses the latest rate on or before it"]):::twin
+        tw_03_source_0 -.-> tw_03_mutator_0
+        tw_03_mutator_0 -.-> tw_03_diff_0
+        tw_03_mutator_0 -.-> tw_03_diff_1
+        tw_03_mutator_0 -.-> tw_03_diff_2
+        tw_03_diff_2 -.-> tw_03_truth_0
+    end

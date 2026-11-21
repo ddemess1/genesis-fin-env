@@ -1,0 +1,58 @@
+flowchart LR
+    classDef clean stroke:#999999
+    classDef mut fill:#FCEBC8,stroke:#E69F00
+    classDef err fill:#FBE3D6,stroke:#D55E00,stroke-width:2px
+    classDef ev fill:#E0F2EC,stroke:#009E73
+    classDef truth fill:#F5E3EE,stroke:#CC79A7
+    classDef twin stroke:#0072B2,stroke-dasharray:4 3
+
+    subgraph iss_01["iss_01 · fx_conversion"]
+        iss_01_source_0["PAY-23ACA3<br/>1 093 880 JPY · 10-31 11:09"]:::clean
+        iss_01_mutator_0{{"WRONG_FX_RATE<br/>rate pct-14"}}:::mut
+        iss_01_diff_0["~ ROW-PJJB7E · Dr 1000"]:::err
+        iss_01_diff_1["+ ROW-VIOLT3 · Dr 7900"]:::err
+        iss_01_affected_0["affected<br/>PAY-23ACA3"]:::err
+        iss_01_evidence_0[/"✓ DOC-NITUMH + FX:2026-…:EUR + ROW-PJJB7E"/]:::ev
+        iss_01_truth_0(["iss_01 ▲ fx_conversion<br/>277.84 EUR"]):::truth
+        iss_01_source_0 --> iss_01_mutator_0
+        iss_01_mutator_0 --> iss_01_diff_0
+        iss_01_mutator_0 --> iss_01_diff_1
+        iss_01_diff_0 --> iss_01_affected_0
+        iss_01_diff_1 --> iss_01_affected_0
+        iss_01_affected_0 --> iss_01_evidence_0
+        iss_01_evidence_0 --> iss_01_truth_0
+    end
+
+    subgraph iss_02["iss_02 · fx_conversion"]
+        iss_02_source_0["PAY-LBMY4U<br/>4 991.42 USD · 10-16 10:19"]:::clean
+        iss_02_mutator_0{{"WRONG_FX_RATE<br/>rate pct-15"}}:::mut
+        iss_02_diff_0["~ ROW-B3IL3L · Dr 1000"]:::err
+        iss_02_diff_1["+ ROW-7RWVNX · Dr 7900"]:::err
+        iss_02_affected_0["affected<br/>PAY-LBMY4U"]:::err
+        iss_02_evidence_0[/"✓ DOC-MMJT35 + FX:2026-…:EUR + ROW-B3IL3L"/]:::ev
+        iss_02_truth_0(["iss_02 ▲ fx_conversion<br/>233.23 EUR"]):::truth
+        iss_02_source_0 --> iss_02_mutator_0
+        iss_02_mutator_0 --> iss_02_diff_0
+        iss_02_mutator_0 --> iss_02_diff_1
+        iss_02_diff_0 --> iss_02_affected_0
+        iss_02_diff_1 --> iss_02_affected_0
+        iss_02_affected_0 --> iss_02_evidence_0
+        iss_02_evidence_0 --> iss_02_truth_0
+    end
+
+    subgraph iss_03["iss_03 · payment_allocation"]
+        iss_03_source_0["PAY-YVQJIG<br/>2 213.66 USD · 10-24 17:13"]:::clean
+        iss_03_mutator_0{{"PARTIAL_ALLOCATION<br/>в 1200 ушло 58%"}}:::mut
+        iss_03_diff_0["~ ROW-UZXUWD · Cr 1200"]:::err
+        iss_03_diff_1["+ ROW-O7Z4Q4 · Cr 2900"]:::err
+        iss_03_affected_0["affected<br/>INV-IE3SY6, PAY-YVQJIG"]:::err
+        iss_03_evidence_0[/"✓ DOC-WOMCXG + ROW-O7Z4Q4 + ROW-UZXUWD"/]:::ev
+        iss_03_truth_0(["iss_03 ▲ payment_allocation<br/>929.74 USD"]):::truth
+        iss_03_source_0 --> iss_03_mutator_0
+        iss_03_mutator_0 --> iss_03_diff_0
+        iss_03_mutator_0 --> iss_03_diff_1
+        iss_03_diff_0 --> iss_03_affected_0
+        iss_03_diff_1 --> iss_03_affected_0
+        iss_03_affected_0 --> iss_03_evidence_0
+        iss_03_evidence_0 --> iss_03_truth_0
+    end

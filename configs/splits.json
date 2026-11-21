@@ -1,0 +1,28 @@
+{
+  "config_version": "v1",
+  "note": "Open train/dev configurations. Seeds are disjoint from configs/audit_suite.json (9101-9120) and from any closed seed.",
+  "train": [
+    {"seed": 1001, "group": "clean", "config": {"twins": {"TWIN_SUBSCRIPTION": 1, "TWIN_REFUND": 1, "TWIN_BOUNDARY_TZ": 1}}},
+    {"seed": 1002, "group": "duplicate", "config": {"errors": {"DUPLICATE_INVOICE": 1}, "twins": {"TWIN_SUBSCRIPTION": 1}}},
+    {"seed": 1003, "group": "allocation", "config": {"errors": {"DUPLICATE_INVOICE": 1, "PARTIAL_ALLOCATION": 1}, "twins": {"TWIN_TRUE_PARTIAL": 1}, "period_start": "2026-07-01", "timezone": "+06:00"}},
+    {"seed": 1004, "group": "allocation", "config": {"errors": {"MISSING_ALLOCATION": 1, "WRONG_FX_DATE": 1}, "twins": {"TWIN_WEEKEND_FX": 1}, "currencies": ["USD", "EUR", "KWD"]}},
+    {"seed": 1005, "group": "fx", "config": {"errors": {"WRONG_FX_RATE": 2, "PARTIAL_ALLOCATION": 1}, "base_currency": "EUR", "currencies": ["USD", "JPY"], "timezone": "+01:00"}},
+    {"seed": 1006, "group": "period", "config": {"errors": {"PERIOD_CUTOFF": 1}, "twins": {"TWIN_BOUNDARY_TZ": 1}, "timezone": "-04:00", "period_start": "2026-11-01"}},
+    {"seed": 1007, "group": "interaction", "config": {"interactions": {"INT1": 1}, "errors": {"DUPLICATE_INVOICE": 1}, "currencies": ["EUR", "KWD"]}},
+    {"seed": 1008, "group": "interaction", "config": {"interactions": {"INT2": 1}, "errors": {"MISSING_ALLOCATION": 1}, "twins": {"TWIN_SPLIT_PAYMENT": 1}}},
+    {"seed": 1009, "group": "interaction", "config": {"interactions": {"INT1": 1, "INT2": 1}, "errors": {"WRONG_FX_RATE": 1, "PERIOD_CUTOFF": 1}, "twins": {"TWIN_SUBSCRIPTION": 1, "TWIN_REFUND": 1}, "n_invoices": 70}},
+    {"seed": 1010, "group": "clean", "config": {"twins": {"TWIN_SPLIT_PAYMENT": 1, "TWIN_WEEKEND_FX": 1, "TWIN_TRUE_PARTIAL": 1}, "base_currency": "USD", "currencies": ["EUR", "KWD"], "timezone": "+00:00", "period_start": "2026-08-01"}}
+  ],
+  "dev": [
+    {"seed": 2001, "group": "clean", "config": {"twins": {"TWIN_SUBSCRIPTION": 2, "TWIN_WEEKEND_FX": 1}, "timezone": "+09:00"}},
+    {"seed": 2002, "group": "duplicate", "config": {"errors": {"DUPLICATE_INVOICE": 2}, "twins": {"TWIN_SUBSCRIPTION": 1, "TWIN_REFUND": 1}}},
+    {"seed": 2003, "group": "allocation", "config": {"errors": {"MISSING_ALLOCATION": 1, "PARTIAL_ALLOCATION": 1}, "twins": {"TWIN_SPLIT_PAYMENT": 1}, "period_start": "2026-09-01"}},
+    {"seed": 2004, "group": "fx", "config": {"errors": {"WRONG_FX_DATE": 1, "WRONG_FX_RATE": 1}, "twins": {"TWIN_WEEKEND_FX": 1}, "currencies": ["USD", "EUR", "JPY"]}},
+    {"seed": 2005, "group": "period", "config": {"errors": {"PERIOD_CUTOFF": 2}, "twins": {"TWIN_BOUNDARY_TZ": 2}, "timezone": "+05:00"}},
+    {"seed": 2006, "group": "interaction", "config": {"interactions": {"INT1": 1}, "twins": {"TWIN_WEEKEND_FX": 1}}},
+    {"seed": 2007, "group": "interaction", "config": {"interactions": {"INT2": 1}, "errors": {"DUPLICATE_INVOICE": 1}, "twins": {"TWIN_SUBSCRIPTION": 1}, "base_currency": "USD", "currencies": ["EUR", "KZT"], "timezone": "-05:00"}},
+    {"seed": 2008, "group": "interaction", "config": {"interactions": {"INT1": 2, "INT2": 1}, "errors": {"WRONG_FX_DATE": 1, "PERIOD_CUTOFF": 1}, "twins": {"TWIN_BOUNDARY_TZ": 1, "TWIN_TRUE_PARTIAL": 1}, "n_invoices": 70}},
+    {"seed": 2009, "group": "clean", "config": {"twins": {"TWIN_REFUND": 2, "TWIN_BOUNDARY_TZ": 1}, "period_start": "2026-12-01", "timezone": "+03:00"}},
+    {"seed": 2010, "group": "allocation", "config": {"errors": {"PARTIAL_ALLOCATION": 2}, "twins": {"TWIN_TRUE_PARTIAL": 1, "TWIN_SPLIT_PAYMENT": 1}, "currencies": ["USD", "EUR", "KWD"]}}
+  ]
+}

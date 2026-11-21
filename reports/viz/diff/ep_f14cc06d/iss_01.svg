@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350" font-family="DejaVu Sans Mono, Menlo, monospace" role="img">
+<title>iss_01 duplicate_invoice</title>
+<rect x="0" y="0" width="600" height="350" fill="#FFFFFF"></rect>
+<text x="20" y="24" font-size="14" fill="#222222" font-weight="bold">iss_01 · duplicate_invoice · DUPLICATE_INVOICE · эпизод ep_f14cc06d</text>
+<text x="20" y="44" font-size="12" fill="#999999">params: shift_days=0, shift_minutes=408 · копия счёта INV-5LNF4A</text>
+<text x="28" y="70" font-size="12" fill="#222222" font-weight="bold">поле</text>
+<text x="205" y="70" font-size="12" fill="#222222" font-weight="bold">clean</text>
+<text x="256" y="70" font-size="12" fill="#222222" font-weight="bold">dirty</text>
+<text x="426" y="70" font-size="12" fill="#222222" font-weight="bold">→</text>
+<text x="28" y="90" font-size="12" fill="#222222">INV-3SSV4W · invoice_id</text>
+<text x="205" y="90" font-size="12" fill="#999999">—</text>
+<rect x="248" y="76" width="170" height="20" fill="#FBE3D6"></rect>
+<text x="256" y="90" font-size="12" fill="#D55E00" font-weight="bold">INV-3SSV4W</text>
+<rect x="418" y="76" width="51" height="20" fill="#FBE3D6"></rect>
+<text x="426" y="90" font-size="12" fill="#D55E00" font-weight="bold">▲ add</text>
+<text x="28" y="110" font-size="12" fill="#222222">INV-3SSV4W · doc_id</text>
+<text x="205" y="110" font-size="12" fill="#999999">—</text>
+<rect x="248" y="96" width="170" height="20" fill="#FBE3D6"></rect>
+<text x="256" y="110" font-size="12" fill="#D55E00" font-weight="bold">DOC-HKJ7IB</text>
+<rect x="418" y="96" width="51" height="20" fill="#FBE3D6"></rect>
+<text x="426" y="110" font-size="12" fill="#D55E00" font-weight="bold">▲ add</text>
+<text x="28" y="130" font-size="12" fill="#222222">INV-3SSV4W · issued_at</text>
+<text x="205" y="130" font-size="12" fill="#999999">—</text>
+<rect x="248" y="116" width="170" height="20" fill="#FBE3D6"></rect>
+<text x="256" y="130" font-size="12" fill="#D55E00" font-weight="bold">2026-10-02T21:29+05:00</text>
+<rect x="418" y="116" width="51" height="20" fill="#FBE3D6"></rect>
+<text x="426" y="130" font-size="12" fill="#D55E00" font-weight="bold">▲ add</text>
+<text x="28" y="150" font-size="12" fill="#222222">INV-3SSV4W · total</text>
+<text x="205" y="150" font-size="12" fill="#999999">—</text>
+<rect x="248" y="136" width="170" height="20" fill="#FBE3D6"></rect>
+<text x="256" y="150" font-size="12" fill="#D55E00" font-weight="bold">2 453.46 USD (245346)</text>
+<rect x="418" y="136" width="51" height="20" fill="#FBE3D6"></rect>
+<text x="426" y="150" font-size="12" fill="#D55E00" font-weight="bold">▲ add</text>
+<text x="28" y="170" font-size="12" fill="#222222">ROW-6AMG6F</text>
+<text x="205" y="170" font-size="12" fill="#999999">—</text>
+<rect x="248" y="156" width="170" height="20" fill="#FBE3D6"></rect>
+<text x="256" y="170" font-size="12" fill="#D55E00" font-weight="bold">Cr 4000 · 1 175 196.13</text>
+<rect x="418" y="156" width="51" height="20" fill="#FBE3D6"></rect>
+<text x="426" y="170" font-size="12" fill="#D55E00" font-weight="bold">▲ add</text>
+<text x="28" y="190" font-size="12" fill="#222222">ROW-LF7EZ3</text>
+<text x="205" y="190" font-size="12" fill="#999999">—</text>
+<rect x="248" y="176" width="170" height="20" fill="#FBE3D6"></rect>
+<text x="256" y="190" font-size="12" fill="#D55E00" font-weight="bold">Dr 1200 · 1 175 196.13</text>
+<rect x="418" y="176" width="51" height="20" fill="#FBE3D6"></rect>
+<text x="426" y="190" font-size="12" fill="#D55E00" font-weight="bold">▲ add</text>
+<text x="20" y="224" font-size="12" fill="#222222" font-weight="bold">проверка</text>
+<text x="28" y="244" font-size="12" fill="#222222">ΣDr = ΣCr</text>
+<text x="205" y="244" font-size="12" fill="#009E73">✓ 215 455 780.12</text>
+<text x="256" y="244" font-size="12" fill="#009E73">✓ 223 473 213.53</text>
+<text x="426" y="244" font-size="12" fill="#999999">I01</text>
+<text x="28" y="264" font-size="12" fill="#222222">detect</text>
+<text x="205" y="264" font-size="12" fill="#009E73">✓ 0</text>
+<text x="256" y="264" font-size="12" fill="#009E73">✓ 2 453.46 KZT</text>
+<text x="426" y="264" font-size="12" fill="#999999">= expected · I07</text>
+<text x="28" y="284" font-size="12" fill="#222222">вне diff</text>
+<text x="205" y="284" font-size="12" fill="#D55E00"></text>
+<text x="256" y="284" font-size="12" fill="#009E73">✓ 0 изменений</text>
+<text x="426" y="284" font-size="12" fill="#999999">I12</text>
+</svg>

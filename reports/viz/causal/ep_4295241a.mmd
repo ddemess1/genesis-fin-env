@@ -1,0 +1,49 @@
+flowchart LR
+    classDef clean stroke:#999999
+    classDef mut fill:#FCEBC8,stroke:#E69F00
+    classDef err fill:#FBE3D6,stroke:#D55E00,stroke-width:2px
+    classDef ev fill:#E0F2EC,stroke:#009E73
+    classDef truth fill:#F5E3EE,stroke:#CC79A7
+    classDef twin stroke:#0072B2,stroke-dasharray:4 3
+
+    subgraph tw_01["tw_01 · законный двойник"]
+        tw_01_source_0["ENT-FJWWQ7"]:::clean
+        tw_01_mutator_0{{"TWIN_BOUNDARY_TZ<br/>"}}:::mut
+        tw_01_diff_0["+ INV-HCGA2G"]:::twin
+        tw_01_diff_1["+ ROW-6RCQIZ · Dr 1200"]:::twin
+        tw_01_diff_2["+ ROW-6OFZR5 · Cr 4000"]:::twin
+        tw_01_truth_0(["○ не ошибка<br/>issued_at 2027-01-01T07:31:00+12:00 = 2026-12-31T22:31:00+03:00 in the manifest timezone"]):::twin
+        tw_01_source_0 -.-> tw_01_mutator_0
+        tw_01_mutator_0 -.-> tw_01_diff_0
+        tw_01_mutator_0 -.-> tw_01_diff_1
+        tw_01_mutator_0 -.-> tw_01_diff_2
+        tw_01_diff_2 -.-> tw_01_truth_0
+    end
+
+    subgraph tw_02["tw_02 · законный двойник"]
+        tw_02_source_0["PAY-UTM4BB<br/>5 642.32 USD · 12-21 16:31"]:::clean
+        tw_02_mutator_0{{"TWIN_REFUND<br/>"}}:::mut
+        tw_02_diff_0["+ PAY-752MND"]:::twin
+        tw_02_diff_1["+ ROW-4AZVQ7 · Cr 1000"]:::twin
+        tw_02_diff_2["+ ROW-M5JB4H · Dr 1200"]:::twin
+        tw_02_truth_0(["○ не ошибка<br/>amount_minor #lt; 0 in the payment document (refund)"]):::twin
+        tw_02_source_0 -.-> tw_02_mutator_0
+        tw_02_mutator_0 -.-> tw_02_diff_0
+        tw_02_mutator_0 -.-> tw_02_diff_1
+        tw_02_mutator_0 -.-> tw_02_diff_2
+        tw_02_diff_2 -.-> tw_02_truth_0
+    end
+
+    subgraph tw_03["tw_03 · законный двойник"]
+        tw_03_source_0["PAY-AJZP3I<br/>1 856 548.50 KZT · 12-21 09:03"]:::clean
+        tw_03_mutator_0{{"TWIN_REFUND<br/>"}}:::mut
+        tw_03_diff_0["+ PAY-MSBJUE"]:::twin
+        tw_03_diff_1["+ ROW-RXLILR · Cr 1000"]:::twin
+        tw_03_diff_2["+ ROW-RH3TLQ · Dr 1200"]:::twin
+        tw_03_truth_0(["○ не ошибка<br/>amount_minor #lt; 0 in the payment document (refund)"]):::twin
+        tw_03_source_0 -.-> tw_03_mutator_0
+        tw_03_mutator_0 -.-> tw_03_diff_0
+        tw_03_mutator_0 -.-> tw_03_diff_1
+        tw_03_mutator_0 -.-> tw_03_diff_2
+        tw_03_diff_2 -.-> tw_03_truth_0
+    end

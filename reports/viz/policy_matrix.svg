@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="532" viewBox="0 0 960 532" font-family="DejaVu Sans Mono, Menlo, monospace" role="img">
+<title>Награда политик по группам эпизодов · 20 эпизодов · sha=5a8eedf</title>
+<rect x="0" y="0" width="960" height="532" fill="#FFFFFF"></rect>
+<text x="20" y="24" font-size="14" fill="#222222" font-weight="bold">Награда политик по группам эпизодов · 20 эпизодов · sha=5a8eedf</text>
+<text x="20" y="44" font-size="12" fill="#999999">надёжность награды: средняя терминальная награда; oracle — верхняя граница, не агент</text>
+<text x="250" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">Чистые</text>
+<text x="250" y="84" font-size="12" fill="#999999" text-anchor="middle">(5)</text>
+<text x="330" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">Дубли</text>
+<text x="330" y="84" font-size="12" fill="#999999" text-anchor="middle">(3)</text>
+<text x="410" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">Оплаты</text>
+<text x="410" y="84" font-size="12" fill="#999999" text-anchor="middle">(3)</text>
+<text x="490" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">FX</text>
+<text x="490" y="84" font-size="12" fill="#999999" text-anchor="middle">(2)</text>
+<text x="570" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">Период</text>
+<text x="570" y="84" font-size="12" fill="#999999" text-anchor="middle">(2)</text>
+<text x="650" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">Взаим.</text>
+<text x="650" y="84" font-size="12" fill="#999999" text-anchor="middle">(5)</text>
+<text x="732" y="70" font-size="12" fill="#222222" text-anchor="middle" font-weight="bold">Все</text>
+<text x="732" y="84" font-size="12" fill="#999999" text-anchor="middle">(20)</text>
+<text x="20" y="107" font-size="12" fill="#222222" font-weight="bold">oracle</text>
+<text x="20" y="121" font-size="10" fill="#999999">верхняя граница, не агент</text>
+<rect x="210" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · clean · n=5</title></rect>
+<text x="250" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<rect x="290" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · duplicate · n=3</title></rect>
+<text x="330" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<rect x="370" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · allocation · n=3</title></rect>
+<text x="410" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<rect x="450" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · fx · n=2</title></rect>
+<text x="490" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<rect x="530" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · period · n=2</title></rect>
+<text x="570" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<rect x="610" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · interaction · n=5</title></rect>
+<text x="650" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<rect x="692" y="92" width="80" height="36" fill="#2266AC" stroke="#FFFFFF" stroke-width="1"><title>oracle · all · n=20</title></rect>
+<text x="732" y="115" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.98</text>
+<text x="20" y="143" font-size="12" fill="#222222" font-weight="bold">простая сверка</text>
+<text x="20" y="157" font-size="10" fill="#999999">базовый алгоритм</text>
+<rect x="210" y="128" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>reconcile · clean · n=5</title></rect>
+<text x="250" y="151" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="290" y="128" width="80" height="36" fill="#78AED8" stroke="#FFFFFF" stroke-width="1"><title>reconcile · duplicate · n=3</title></rect>
+<text x="330" y="151" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">+0.46</text>
+<rect x="370" y="128" width="80" height="36" fill="#659FD0" stroke="#FFFFFF" stroke-width="1"><title>reconcile · allocation · n=3</title></rect>
+<text x="410" y="151" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">+0.54</text>
+<rect x="450" y="128" width="80" height="36" fill="#2D6DAF" stroke="#FFFFFF" stroke-width="1"><title>reconcile · fx · n=2</title></rect>
+<text x="490" y="151" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.78</text>
+<rect x="530" y="128" width="80" height="36" fill="#99C3E1" stroke="#FFFFFF" stroke-width="1"><title>reconcile · period · n=2</title></rect>
+<text x="570" y="151" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">+0.32</text>
+<rect x="610" y="128" width="80" height="36" fill="#2B6CAF" stroke="#FFFFFF" stroke-width="1"><title>reconcile · interaction · n=5</title></rect>
+<text x="650" y="151" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+0.80</text>
+<rect x="692" y="128" width="80" height="36" fill="#B5D3E8" stroke="#FFFFFF" stroke-width="1"><title>reconcile · all · n=20</title></rect>
+<text x="732" y="151" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">+0.21</text>
+<text x="20" y="179" font-size="12" fill="#222222" font-weight="bold">случайная</text>
+<text x="20" y="193" font-size="10" fill="#999999">seed фиксирован</text>
+<rect x="210" y="164" width="80" height="36" fill="#F6BDA7" stroke="#FFFFFF" stroke-width="1"><title>random · clean · n=5</title></rect>
+<text x="250" y="187" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">−0.23</text>
+<rect x="290" y="164" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>random · duplicate · n=3</title></rect>
+<text x="330" y="187" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="370" y="164" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>random · allocation · n=3</title></rect>
+<text x="410" y="187" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="450" y="164" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>random · fx · n=2</title></rect>
+<text x="490" y="187" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="530" y="164" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>random · period · n=2</title></rect>
+<text x="570" y="187" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="610" y="164" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>random · interaction · n=5</title></rect>
+<text x="650" y="187" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="692" y="164" width="80" height="36" fill="#BC312B" stroke="#FFFFFF" stroke-width="1"><title>random · all · n=20</title></rect>
+<text x="732" y="187" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−0.81</text>
+<text x="20" y="215" font-size="12" fill="#222222" font-weight="bold">пометить всё</text>
+<text x="20" y="229" font-size="10" fill="#999999">атака</text>
+<rect x="210" y="200" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · clean · n=5</title></rect>
+<text x="250" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="290" y="200" width="80" height="36" fill="#B41D2B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · duplicate · n=3</title></rect>
+<text x="330" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−0.96</text>
+<rect x="370" y="200" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · allocation · n=3</title></rect>
+<text x="410" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="450" y="200" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · fx · n=2</title></rect>
+<text x="490" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="530" y="200" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · period · n=2</title></rect>
+<text x="570" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="610" y="200" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · interaction · n=5</title></rect>
+<text x="650" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−1.00</text>
+<rect x="692" y="200" width="80" height="36" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"><title>flag_all · all · n=20</title></rect>
+<text x="732" y="223" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">−0.99</text>
+<line x1="691" y1="88" x2="691" y2="236" stroke="#222222" stroke-width="2"></line>
+<text x="20" y="262" font-size="12" fill="#222222">−1</text>
+<rect x="44" y="250" width="40" height="14" fill="#B2182B" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="84" y="250" width="40" height="14" fill="#C0392B" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="124" y="250" width="40" height="14" fill="#E8836B" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="164" y="250" width="40" height="14" fill="#F6B8A0" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="204" y="250" width="40" height="14" fill="#F7F7F7" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="244" y="250" width="40" height="14" fill="#A9CDE6" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="284" y="250" width="40" height="14" fill="#6FA8D6" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="324" y="250" width="40" height="14" fill="#2F6EB0" stroke="#FFFFFF" stroke-width="1"></rect>
+<rect x="364" y="250" width="40" height="14" fill="#2166AC" stroke="#FFFFFF" stroke-width="1"></rect>
+<text x="412" y="262" font-size="12" fill="#999999">+1   шкала RdBu, число в каждой ячейке; столбец «Все» отделён чертой</text>
+<text x="20" y="296" font-size="12" fill="#222222" font-weight="bold">Контрольные утверждения</text>
+<text x="20" y="314" font-size="12" fill="#009E73">✓ oracle не ниже остальных на каждой группе (по средней награде)  (M01, M02)</text>
+<text x="20" y="332" font-size="12" fill="#009E73">✓ молчание на чистых выше ложных обвинений  (M03, M04)</text>
+<text x="20" y="350" font-size="12" fill="#009E73">✓ «пометить всё» ниже нуля на каждом эпизоде  (M06)</text>
+<text x="20" y="368" font-size="12" fill="#009E73">✓ дубль вывода не повышает награду  (M05)</text>
+<text x="20" y="402" font-size="12" fill="#222222" font-weight="bold">Политика</text>
+<text x="220" y="402" font-size="12" fill="#222222" font-weight="bold">P</text>
+<text x="290" y="402" font-size="12" fill="#222222" font-weight="bold">R</text>
+<text x="360" y="402" font-size="12" fill="#222222" font-weight="bold">F1</text>
+<text x="440" y="402" font-size="12" fill="#222222" font-weight="bold">Возврат</text>
+<text x="560" y="402" font-size="12" fill="#222222" font-weight="bold">Шаги (мед.)</text>
+<text x="680" y="402" font-size="12" fill="#222222" font-weight="bold">truncated</text>
+<text x="20" y="420" font-size="12" fill="#222222">oracle</text>
+<text x="220" y="420" font-size="12" fill="#222222">1.00</text>
+<text x="290" y="420" font-size="12" fill="#222222">1.00</text>
+<text x="360" y="420" font-size="12" fill="#222222">1.00</text>
+<text x="440" y="420" font-size="12" fill="#222222">+0.98</text>
+<text x="560" y="420" font-size="12" fill="#222222">10</text>
+<text x="680" y="420" font-size="12" fill="#222222">0</text>
+<text x="20" y="438" font-size="12" fill="#222222">простая сверка</text>
+<text x="220" y="438" font-size="12" fill="#222222">0.67</text>
+<text x="290" y="438" font-size="12" fill="#222222">1.00</text>
+<text x="360" y="438" font-size="12" fill="#222222">0.80</text>
+<text x="440" y="438" font-size="12" fill="#222222">+0.21</text>
+<text x="560" y="438" font-size="12" fill="#222222">10</text>
+<text x="680" y="438" font-size="12" fill="#222222">0</text>
+<text x="20" y="456" font-size="12" fill="#222222">случайная</text>
+<text x="220" y="456" font-size="12" fill="#222222">0.00</text>
+<text x="290" y="456" font-size="12" fill="#222222">0.00</text>
+<text x="360" y="456" font-size="12" fill="#222222">0.00</text>
+<text x="440" y="456" font-size="12" fill="#222222">−0.81</text>
+<text x="560" y="456" font-size="12" fill="#222222">21</text>
+<text x="680" y="456" font-size="12" fill="#222222">0</text>
+<text x="20" y="474" font-size="12" fill="#222222">пометить всё</text>
+<text x="220" y="474" font-size="12" fill="#222222">0.00</text>
+<text x="290" y="474" font-size="12" fill="#222222">0.02</text>
+<text x="360" y="474" font-size="12" fill="#222222">0.00</text>
+<text x="440" y="474" font-size="12" fill="#222222">−0.99</text>
+<text x="560" y="474" font-size="12" fill="#222222">2</text>
+<text x="680" y="474" font-size="12" fill="#222222">0</text>
+</svg>

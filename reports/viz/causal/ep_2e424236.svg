@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1744" height="454" viewBox="0 0 1744 454" font-family="DejaVu Sans Mono, Menlo, monospace" role="img">
+<title>эпизод ep_2e424236 · 1 ошибок/групп · 1 двойников</title>
+<rect x="0" y="0" width="1744" height="454" fill="#FFFFFF"></rect>
+<text x="20" y="24" font-size="14" fill="#222222" font-weight="bold">эпизод ep_2e424236 · 1 ошибок/групп · 1 двойников</text>
+<text x="20" y="56" font-size="11" fill="#999999" font-weight="bold">ЧИСТАЯ ЗАПИСЬ</text>
+<text x="254" y="56" font-size="11" fill="#999999" font-weight="bold">МУТАТОР</text>
+<text x="432" y="56" font-size="11" fill="#999999" font-weight="bold">DIFF</text>
+<text x="638" y="56" font-size="11" fill="#999999" font-weight="bold">AFFECTED_IDS</text>
+<text x="844" y="56" font-size="11" fill="#999999" font-weight="bold">ДОКАЗАТЕЛЬСТВА</text>
+<text x="1183" y="56" font-size="11" fill="#999999" font-weight="bold">TRUTH.JSON</text>
+<text x="20" y="76" font-size="12" fill="#222222" font-weight="bold">grp_01 · MISSING_ALLOCATION+WRONG_FX_DATE</text>
+<path d="M218 104 L236 104 L236 104 L254 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M248 100 L254 104 L248 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M396 104 L414 104 L414 97 L432 97" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M426 93 L432 97 L426 101" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M602 97 L620 97 L620 104 L638 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M632 100 L638 104 L632 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M808 104 L826 104 L826 97 L844 97" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M838 93 L844 97 L838 101" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1147 97 L1165 97 L1165 104 L1183 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1177 100 L1183 104 L1177 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M218 104 L236 104 L236 154 L254 154" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M248 150 L254 154 L248 158" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M396 154 L414 154 L414 133 L432 133" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M426 129 L432 133 L426 137" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M396 154 L414 154 L414 169 L432 169" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M426 165 L432 169 L426 173" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M602 133 L620 133 L620 154 L638 154" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M632 150 L638 154 L632 158" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M602 169 L620 169 L620 154 L638 154" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M632 150 L638 154 L632 158" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M808 154 L826 154 L826 133 L844 133" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M838 129 L844 133 L838 137" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1147 133 L1165 133 L1165 154 L1183 154" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M1177 150 L1183 154 L1177 158" fill="none" stroke="#444444" stroke-width="2"></path>
+<rect x="20" y="84" width="198" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>PAY-XOC7DL</title></rect>
+<text x="28" y="102" font-size="12" fill="#222222">PAY-XOC7DL</text>
+<text x="28" y="116" font-size="12" fill="#222222">3 590.01 USD · 10-31 15:22</text>
+<rect x="254" y="84" width="142" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>MISSING_ALLOCATION</title></rect>
+<text x="262" y="102" font-size="12" fill="#222222">MISSING_ALLOCATION</text>
+<text x="262" y="116" font-size="12" fill="#222222">в 1200 ушло 0%</text>
+<rect x="432" y="84" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-6EIFIW</title></rect>
+<text x="440" y="102" font-size="12" fill="#222222">~ ROW-6EIFIW · Cr 2900</text>
+<rect x="638" y="84" width="170" height="40" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-XSOVT3, PAY-XOC7DL</title></rect>
+<text x="646" y="102" font-size="12" fill="#222222">affected</text>
+<text x="646" y="116" font-size="12" fill="#222222">INV-XSOVT3, PAY-XOC7DL</text>
+<rect x="844" y="84" width="303" height="26" fill="#E0F2EC" stroke="#009E73" stroke-width="1"><title>DOC-A2DVHL + ROW-6EIFIW</title></rect>
+<text x="852" y="102" font-size="12" fill="#222222">✓ DOC-A2DVHL + ROW-6EIFIW</text>
+<rect x="1183" y="84" width="541" height="40" rx="6" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"><title>iss_02 payment_allocation 359001 USD</title></rect>
+<text x="1191" y="102" font-size="12" fill="#222222">iss_02 ▲ payment_allocation</text>
+<text x="1191" y="116" font-size="12" fill="#222222">3 590.01 USD</text>
+<rect x="254" y="134" width="142" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>WRONG_FX_DATE</title></rect>
+<text x="262" y="152" font-size="12" fill="#222222">WRONG_FX_DATE</text>
+<text x="262" y="166" font-size="12" fill="#222222">курс 2026-11-02</text>
+<rect x="432" y="120" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-PBCQSU</title></rect>
+<text x="440" y="138" font-size="12" fill="#222222">~ ROW-PBCQSU · Dr 1000</text>
+<rect x="432" y="156" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-LSUZN4</title></rect>
+<text x="440" y="174" font-size="12" fill="#222222">+ ROW-LSUZN4 · Cr 7900</text>
+<rect x="638" y="134" width="170" height="40" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>PAY-XOC7DL</title></rect>
+<text x="646" y="152" font-size="12" fill="#222222">affected</text>
+<text x="646" y="166" font-size="12" fill="#222222">PAY-XOC7DL</text>
+<rect x="844" y="120" width="303" height="26" fill="#E0F2EC" stroke="#009E73" stroke-width="1"><title>DOC-A2DVHL + FX:2026-10-30:USD:KZT + ROW-PBCQSU</title></rect>
+<text x="852" y="138" font-size="12" fill="#222222">✓ DOC-A2DVHL + FX:2026-…:KZT + ROW-PBCQSU</text>
+<rect x="1183" y="134" width="541" height="40" rx="6" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"><title>iss_01 fx_conversion 317705 KZT</title></rect>
+<text x="1191" y="152" font-size="12" fill="#222222">iss_01 ▲ fx_conversion</text>
+<text x="1191" y="166" font-size="12" fill="#222222">3 177.05 KZT</text>
+<text x="20" y="226" font-size="12" fill="#222222" font-weight="bold">tw_01 · законный двойник</text>
+<path d="M218 254 L236 254 L236 254 L254 254" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M248 250 L254 254 L248 258" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M396 254 L414 254 L414 247 L432 247" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M426 243 L432 247 L426 251" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M396 254 L414 254 L414 283 L432 283" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M426 279 L432 283 L426 287" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M396 254 L414 254 L414 319 L432 319" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M426 315 L432 319 L426 323" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M602 319 L892 319 L892 254 L1183 254" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M1177 250 L1183 254 L1177 258" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<rect x="20" y="234" width="198" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>INV-LUQXL7</title></rect>
+<text x="28" y="252" font-size="12" fill="#222222">INV-LUQXL7</text>
+<text x="28" y="266" font-size="12" fill="#222222">11 925.97 USD</text>
+<rect x="254" y="234" width="142" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>TWIN_WEEKEND_FX</title></rect>
+<text x="262" y="252" font-size="12" fill="#222222">TWIN_WEEKEND_FX</text>
+<text x="262" y="266" font-size="12" fill="#222222"></text>
+<rect x="432" y="234" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>PAY-EMX5SK</title></rect>
+<text x="440" y="252" font-size="12" fill="#222222">+ PAY-EMX5SK</text>
+<rect x="432" y="270" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-RRMU53</title></rect>
+<text x="440" y="288" font-size="12" fill="#222222">+ ROW-RRMU53 · Dr 1000</text>
+<rect x="432" y="306" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-EJCIBZ</title></rect>
+<text x="440" y="324" font-size="12" fill="#222222">+ ROW-EJCIBZ · Cr 1200</text>
+<rect x="1183" y="234" width="541" height="40" rx="6" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>not an error: no fx row for the weekend date; policy uses the latest rate on or before it</title></rect>
+<text x="1191" y="252" font-size="12" fill="#222222">○ не ошибка</text>
+<text x="1191" y="266" font-size="12" fill="#222222">no fx row for the weekend date; policy uses the latest rate on or before it</text>
+<rect x="20" y="404" width="26" height="16" fill="#FFFFFF" stroke="#999999" stroke-width="1"></rect>
+<text x="52" y="416" font-size="11" fill="#222222">чистая запись</text>
+<rect x="165" y="404" width="26" height="16" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"></rect>
+<text x="197" y="416" font-size="11" fill="#222222">мутатор</text>
+<rect x="268" y="404" width="26" height="16" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"></rect>
+<text x="300" y="416" font-size="11" fill="#222222">ошибка / diff</text>
+<rect x="413" y="404" width="26" height="16" fill="#E0F2EC" stroke="#009E73" stroke-width="1"></rect>
+<text x="445" y="416" font-size="11" fill="#222222">доказательства</text>
+<rect x="565" y="404" width="26" height="16" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"></rect>
+<text x="597" y="416" font-size="11" fill="#222222">строка truth</text>
+<rect x="703" y="404" width="26" height="16" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></rect>
+<text x="735" y="416" font-size="11" fill="#222222">○ двойник</text>
+</svg>

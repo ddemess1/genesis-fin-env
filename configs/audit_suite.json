@@ -1,0 +1,25 @@
+{
+  "suite_version": "v1",
+  "episodes": [
+    {"id": "D01", "seed": 9101, "group": "clean", "config": {"twins": {"TWIN_SUBSCRIPTION": 2, "TWIN_TRUE_PARTIAL": 1, "TWIN_REFUND": 1}}},
+    {"id": "D02", "seed": 9102, "group": "clean", "config": {"twins": {"TWIN_SPLIT_PAYMENT": 2, "TWIN_BOUNDARY_TZ": 1, "TWIN_WEEKEND_FX": 1}, "period_start": "2026-09-01", "timezone": "+06:00"}},
+    {"id": "D03", "seed": 9103, "group": "clean", "config": {"twins": {"TWIN_REFUND": 2, "TWIN_SUBSCRIPTION": 1, "TWIN_TRUE_PARTIAL": 1}, "base_currency": "USD", "currencies": ["EUR", "KWD"], "timezone": "+00:00"}},
+    {"id": "D04", "seed": 9104, "group": "clean", "config": {"twins": {"TWIN_WEEKEND_FX": 2, "TWIN_SUBSCRIPTION": 1, "TWIN_BOUNDARY_TZ": 1}, "currencies": ["USD", "EUR", "JPY"]}},
+    {"id": "D05", "seed": 9105, "group": "clean", "config": {"twins": {"TWIN_BOUNDARY_TZ": 2, "TWIN_SPLIT_PAYMENT": 1, "TWIN_REFUND": 1}, "timezone": "-04:00", "period_start": "2026-11-01"}},
+    {"id": "D06", "seed": 9106, "group": "duplicate", "config": {"errors": {"DUPLICATE_INVOICE": 1}, "twins": {"TWIN_SUBSCRIPTION": 1}}},
+    {"id": "D07", "seed": 9107, "group": "duplicate", "config": {"errors": {"DUPLICATE_INVOICE": 2}, "twins": {"TWIN_SUBSCRIPTION": 1}, "period_start": "2026-09-01"}},
+    {"id": "D08", "seed": 9108, "group": "duplicate", "config": {"errors": {"DUPLICATE_INVOICE": 3}, "twins": {"TWIN_SUBSCRIPTION": 2}, "base_currency": "EUR", "currencies": ["USD", "JPY"], "timezone": "+01:00"}},
+    {"id": "D09", "seed": 9109, "group": "allocation", "config": {"errors": {"MISSING_ALLOCATION": 1}, "twins": {"TWIN_OVERPAYMENT": 1, "TWIN_TRUE_PARTIAL": 1}}},
+    {"id": "D10", "seed": 9110, "group": "allocation", "config": {"errors": {"PARTIAL_ALLOCATION": 1}, "twins": {"TWIN_OVERPAYMENT": 1, "TWIN_TRUE_PARTIAL": 1}, "currencies": ["USD", "EUR", "KWD"]}},
+    {"id": "D11", "seed": 9111, "group": "allocation", "config": {"errors": {"MISSING_ALLOCATION": 1, "PARTIAL_ALLOCATION": 1}, "twins": {"TWIN_SPLIT_PAYMENT": 1}}},
+    {"id": "D12", "seed": 9112, "group": "fx", "config": {"errors": {"WRONG_FX_DATE": 2}, "twins": {"TWIN_OVERPAYMENT": 1, "TWIN_WEEKEND_FX": 1}}},
+    {"id": "D13", "seed": 9113, "group": "fx", "config": {"errors": {"WRONG_FX_RATE": 1}, "twins": {"TWIN_WEEKEND_FX": 1}, "currencies": ["USD", "EUR", "JPY"]}},
+    {"id": "D14", "seed": 9114, "group": "period", "config": {"errors": {"PERIOD_CUTOFF": 2}, "twins": {"TWIN_OVERPAYMENT": 1, "TWIN_BOUNDARY_TZ": 1}, "timezone": "+05:00"}},
+    {"id": "D15", "seed": 9115, "group": "period", "config": {"errors": {"PERIOD_CUTOFF": 1}, "twins": {"TWIN_BOUNDARY_TZ": 1}, "timezone": "-04:00", "period_start": "2026-12-01"}},
+    {"id": "D16", "seed": 9116, "group": "interaction", "config": {"interactions": {"INT1": 1}, "twins": {"TWIN_OVERPAYMENT": 1, "TWIN_WEEKEND_FX": 1}}},
+    {"id": "D17", "seed": 9117, "group": "interaction", "config": {"interactions": {"INT1": 1}, "twins": {"TWIN_SPLIT_PAYMENT": 1}, "base_currency": "EUR", "currencies": ["USD", "JPY"], "timezone": "+01:00"}},
+    {"id": "D18", "seed": 9118, "group": "interaction", "config": {"interactions": {"INT1": 2}, "twins": {"TWIN_SUBSCRIPTION": 1}, "currencies": ["EUR", "KWD"]}},
+    {"id": "D19", "seed": 9119, "group": "interaction", "config": {"interactions": {"INT2": 2, "INT1": 1}, "errors": {"DUPLICATE_INVOICE": 1, "MISSING_ALLOCATION": 1, "PARTIAL_ALLOCATION": 1, "WRONG_FX_DATE": 1, "WRONG_FX_RATE": 1, "PERIOD_CUTOFF": 1}, "twins": {"TWIN_SUBSCRIPTION": 1, "TWIN_REFUND": 1, "TWIN_BOUNDARY_TZ": 1}, "n_invoices": 80}},
+    {"id": "D20", "seed": 9120, "group": "interaction", "config": {"interactions": {"INT2": 1, "INT1": 2}, "errors": {"DUPLICATE_INVOICE": 2, "WRONG_FX_RATE": 1, "PERIOD_CUTOFF": 1, "MISSING_ALLOCATION": 1}, "twins": {"TWIN_SUBSCRIPTION": 1, "TWIN_WEEKEND_FX": 1, "TWIN_TRUE_PARTIAL": 1}, "n_invoices": 80, "base_currency": "USD", "currencies": ["EUR", "KZT"], "timezone": "-04:00"}}
+  ]
+}

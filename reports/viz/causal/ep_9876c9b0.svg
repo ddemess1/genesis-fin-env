@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1555" height="682" viewBox="0 0 1555 682" font-family="DejaVu Sans Mono, Menlo, monospace" role="img">
+<title>эпизод ep_9876c9b0 · 2 ошибок/групп · 2 двойников</title>
+<rect x="0" y="0" width="1555" height="682" fill="#FFFFFF"></rect>
+<text x="20" y="24" font-size="14" fill="#222222" font-weight="bold">эпизод ep_9876c9b0 · 2 ошибок/групп · 2 двойников</text>
+<text x="20" y="56" font-size="11" fill="#999999" font-weight="bold">ЧИСТАЯ ЗАПИСЬ</text>
+<text x="184" y="56" font-size="11" fill="#999999" font-weight="bold">МУТАТОР</text>
+<text x="348" y="56" font-size="11" fill="#999999" font-weight="bold">DIFF</text>
+<text x="554" y="56" font-size="11" fill="#999999" font-weight="bold">AFFECTED_IDS</text>
+<text x="676" y="56" font-size="11" fill="#999999" font-weight="bold">ДОКАЗАТЕЛЬСТВА</text>
+<text x="903" y="56" font-size="11" fill="#999999" font-weight="bold">TRUTH.JSON</text>
+<text x="20" y="76" font-size="12" fill="#222222" font-weight="bold">iss_01 · period_cutoff</text>
+<path d="M148 104 L166 104 L166 104 L184 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M178 100 L184 104 L178 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M312 104 L330 104 L330 97 L348 97" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M342 93 L348 97 L342 101" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M312 104 L330 104 L330 133 L348 133" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M342 129 L348 133 L342 137" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M518 97 L536 97 L536 104 L554 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M548 100 L554 104 L548 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M518 133 L536 133 L536 104 L554 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M548 100 L554 104 L548 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M640 104 L658 104 L658 97 L676 97" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M670 93 L676 97 L670 101" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M867 97 L885 97 L885 104 L903 104" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M897 100 L903 104 L897 108" fill="none" stroke="#444444" stroke-width="2"></path>
+<rect x="20" y="84" width="128" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>INV-7NHWPU</title></rect>
+<text x="28" y="102" font-size="12" fill="#222222">INV-7NHWPU</text>
+<text x="28" y="116" font-size="12" fill="#222222">4 662 536.15 KZT</text>
+<rect x="184" y="84" width="128" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>PERIOD_CUTOFF</title></rect>
+<text x="192" y="102" font-size="12" fill="#222222">PERIOD_CUTOFF</text>
+<text x="192" y="116" font-size="12" fill="#222222">shift 2d</text>
+<rect x="348" y="84" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-PTZRHV</title></rect>
+<text x="356" y="102" font-size="12" fill="#222222">+ ROW-PTZRHV · Dr 1200</text>
+<rect x="348" y="120" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-GD5INL</title></rect>
+<text x="356" y="138" font-size="12" fill="#222222">+ ROW-GD5INL · Cr 4000</text>
+<rect x="554" y="84" width="86" height="40" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-7NHWPU</title></rect>
+<text x="562" y="102" font-size="12" fill="#222222">affected</text>
+<text x="562" y="116" font-size="12" fill="#222222">INV-7NHWPU</text>
+<rect x="676" y="84" width="191" height="26" fill="#E0F2EC" stroke="#009E73" stroke-width="1"><title>DOC-U7TOK5 + ROW-GD5INL</title></rect>
+<text x="684" y="102" font-size="12" fill="#222222">✓ DOC-U7TOK5 + ROW-GD5INL</text>
+<rect x="903" y="84" width="632" height="40" rx="6" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"><title>iss_01 period_cutoff 466253615 KZT</title></rect>
+<text x="911" y="102" font-size="12" fill="#222222">iss_01 ▲ period_cutoff</text>
+<text x="911" y="116" font-size="12" fill="#222222">4 662 536.15 KZT</text>
+<text x="20" y="190" font-size="12" fill="#222222" font-weight="bold">iss_02 · period_cutoff</text>
+<path d="M148 218 L166 218 L166 218 L184 218" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M178 214 L184 218 L178 222" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M312 218 L330 218 L330 211 L348 211" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M342 207 L348 211 L342 215" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M312 218 L330 218 L330 247 L348 247" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M342 243 L348 247 L342 251" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M518 211 L536 211 L536 218 L554 218" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M548 214 L554 218 L548 222" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M518 247 L536 247 L536 218 L554 218" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M548 214 L554 218 L548 222" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M640 218 L658 218 L658 211 L676 211" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M670 207 L676 211 L670 215" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M867 211 L885 211 L885 218 L903 218" fill="none" stroke="#444444" stroke-width="2"></path>
+<path d="M897 214 L903 218 L897 222" fill="none" stroke="#444444" stroke-width="2"></path>
+<rect x="20" y="198" width="128" height="40" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>INV-SGESKD</title></rect>
+<text x="28" y="216" font-size="12" fill="#222222">INV-SGESKD</text>
+<text x="28" y="230" font-size="12" fill="#222222">3 415.28 EUR</text>
+<rect x="184" y="198" width="128" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>PERIOD_CUTOFF</title></rect>
+<text x="192" y="216" font-size="12" fill="#222222">PERIOD_CUTOFF</text>
+<text x="192" y="230" font-size="12" fill="#222222">shift 2d</text>
+<rect x="348" y="198" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-TMSVCH</title></rect>
+<text x="356" y="216" font-size="12" fill="#222222">+ ROW-TMSVCH · Dr 1200</text>
+<rect x="348" y="234" width="170" height="26" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>ROW-X4VKXL</title></rect>
+<text x="356" y="252" font-size="12" fill="#222222">+ ROW-X4VKXL · Cr 4000</text>
+<rect x="554" y="198" width="86" height="40" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"><title>INV-SGESKD</title></rect>
+<text x="562" y="216" font-size="12" fill="#222222">affected</text>
+<text x="562" y="230" font-size="12" fill="#222222">INV-SGESKD</text>
+<rect x="676" y="198" width="191" height="26" fill="#E0F2EC" stroke="#009E73" stroke-width="1"><title>DOC-JX6WZ4 + ROW-X4VKXL</title></rect>
+<text x="684" y="216" font-size="12" fill="#222222">✓ DOC-JX6WZ4 + ROW-X4VKXL</text>
+<rect x="903" y="198" width="632" height="40" rx="6" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"><title>iss_02 period_cutoff 189091487 KZT</title></rect>
+<text x="911" y="216" font-size="12" fill="#222222">iss_02 ▲ period_cutoff</text>
+<text x="911" y="230" font-size="12" fill="#222222">1 890 914.87 KZT</text>
+<text x="20" y="304" font-size="12" fill="#222222" font-weight="bold">tw_01 · законный двойник</text>
+<path d="M148 325 L166 325 L166 332 L184 332" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M178 328 L184 332 L178 336" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M312 332 L330 332 L330 325 L348 325" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M342 321 L348 325 L342 329" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M312 332 L330 332 L330 361 L348 361" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M342 357 L348 361 L342 365" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M312 332 L330 332 L330 397 L348 397" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M342 393 L348 397 L342 401" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M518 397 L710 397 L710 332 L903 332" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M897 328 L903 332 L897 336" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<rect x="20" y="312" width="128" height="26" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>ENT-FYA4VG</title></rect>
+<text x="28" y="330" font-size="12" fill="#222222">ENT-FYA4VG</text>
+<rect x="184" y="312" width="128" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>TWIN_BOUNDARY_TZ</title></rect>
+<text x="192" y="330" font-size="12" fill="#222222">TWIN_BOUNDARY_TZ</text>
+<text x="192" y="344" font-size="12" fill="#222222"></text>
+<rect x="348" y="312" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>INV-WANBBD</title></rect>
+<text x="356" y="330" font-size="12" fill="#222222">+ INV-WANBBD</text>
+<rect x="348" y="348" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-TP444U</title></rect>
+<text x="356" y="366" font-size="12" fill="#222222">+ ROW-TP444U · Dr 1200</text>
+<rect x="348" y="384" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-2QODHO</title></rect>
+<text x="356" y="402" font-size="12" fill="#222222">+ ROW-2QODHO · Cr 4000</text>
+<rect x="903" y="312" width="632" height="40" rx="6" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>not an error: issued_at 2026-11-01T02:42:00+09:00 = 2026-10-31T22:42:00+05:00 in the manifest timezone</title></rect>
+<text x="911" y="330" font-size="12" fill="#222222">○ не ошибка</text>
+<text x="911" y="344" font-size="12" fill="#222222">issued_at 2026-11-01T02:42:00+09:00 = 2026-10-31T22:42:00+05:00 in the manifest timezone</text>
+<text x="20" y="454" font-size="12" fill="#222222" font-weight="bold">tw_02 · законный двойник</text>
+<path d="M148 475 L166 475 L166 482 L184 482" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M178 478 L184 482 L178 486" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M312 482 L330 482 L330 475 L348 475" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M342 471 L348 475 L342 479" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M312 482 L330 482 L330 511 L348 511" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M342 507 L348 511 L342 515" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M312 482 L330 482 L330 547 L348 547" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M342 543 L348 547 L342 551" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<path d="M518 547 L710 547 L710 482 L903 482" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></path>
+<path d="M897 478 L903 482 L897 486" fill="none" stroke="#0072B2" stroke-width="1"></path>
+<rect x="20" y="462" width="128" height="26" fill="#FFFFFF" stroke="#999999" stroke-width="1"><title>ENT-HDLH5R</title></rect>
+<text x="28" y="480" font-size="12" fill="#222222">ENT-HDLH5R</text>
+<rect x="184" y="462" width="128" height="40" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"><title>TWIN_BOUNDARY_TZ</title></rect>
+<text x="192" y="480" font-size="12" fill="#222222">TWIN_BOUNDARY_TZ</text>
+<text x="192" y="494" font-size="12" fill="#222222"></text>
+<rect x="348" y="462" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>INV-WJFNNT</title></rect>
+<text x="356" y="480" font-size="12" fill="#222222">+ INV-WJFNNT</text>
+<rect x="348" y="498" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-UJJIVG</title></rect>
+<text x="356" y="516" font-size="12" fill="#222222">+ ROW-UJJIVG · Dr 1200</text>
+<rect x="348" y="534" width="170" height="26" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>ROW-I7GZN4</title></rect>
+<text x="356" y="552" font-size="12" fill="#222222">+ ROW-I7GZN4 · Cr 4000</text>
+<rect x="903" y="462" width="632" height="40" rx="6" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"><title>not an error: issued_at 2026-11-01T01:54:00+09:00 = 2026-10-31T21:54:00+05:00 in the manifest timezone</title></rect>
+<text x="911" y="480" font-size="12" fill="#222222">○ не ошибка</text>
+<text x="911" y="494" font-size="12" fill="#222222">issued_at 2026-11-01T01:54:00+09:00 = 2026-10-31T21:54:00+05:00 in the manifest timezone</text>
+<rect x="20" y="632" width="26" height="16" fill="#FFFFFF" stroke="#999999" stroke-width="1"></rect>
+<text x="52" y="644" font-size="11" fill="#222222">чистая запись</text>
+<rect x="165" y="632" width="26" height="16" fill="#FCEBC8" stroke="#E69F00" stroke-width="1"></rect>
+<text x="197" y="644" font-size="11" fill="#222222">мутатор</text>
+<rect x="268" y="632" width="26" height="16" fill="#FBE3D6" stroke="#D55E00" stroke-width="2"></rect>
+<text x="300" y="644" font-size="11" fill="#222222">ошибка / diff</text>
+<rect x="413" y="632" width="26" height="16" fill="#E0F2EC" stroke="#009E73" stroke-width="1"></rect>
+<text x="445" y="644" font-size="11" fill="#222222">доказательства</text>
+<rect x="565" y="632" width="26" height="16" fill="#F5E3EE" stroke="#CC79A7" stroke-width="1"></rect>
+<text x="597" y="644" font-size="11" fill="#222222">строка truth</text>
+<rect x="703" y="632" width="26" height="16" fill="#FFFFFF" stroke="#0072B2" stroke-width="1" stroke-dasharray="4 3"></rect>
+<text x="735" y="644" font-size="11" fill="#222222">○ двойник</text>
+</svg>

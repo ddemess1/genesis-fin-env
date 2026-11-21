@@ -1,0 +1,1 @@
+{"episode_id":"ep_4a3229fb","issues":[{"affected_ids":["INV-5P7SHJ","INV-NNZGZ5"],"amount_tolerance_minor":0,"currency":"USD","evidence_sets":[["DOC-PBJAXU","DOC-RV34CO"]],"expected_amount_minor":187178,"issue_id":"iss_01","mutation_id":"m0002","type":"duplicate_invoice"}]}

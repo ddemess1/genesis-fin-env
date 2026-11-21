@@ -1,0 +1,1 @@
+{"episode_id":"ep_8deb0df8","issues":[{"affected_ids":["INV-II5AOP"],"amount_tolerance_minor":0,"currency":"KZT","evidence_sets":[["DOC-JBC53L","ROW-MRY5GX"]],"expected_amount_minor":123431399,"issue_id":"iss_01","mutation_id":"m0002","type":"period_cutoff"}]}
